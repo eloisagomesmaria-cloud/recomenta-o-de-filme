@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendações de Filmes de Terror</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #ff4747;
+        }
+        .movie-card {
+            display: flex;
+            background-color: #222;
+            margin: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .movie-card img {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .movie-info {
+            padding: 20px;
+            flex: 1;
+        }
+        .movie-info h2 {
+            margin-top: 0;
+            color: #ff4747;
+        }
+        .movie-info p {
+            color: #bbb;
+        }
+        .movie-info button {
+            padding: 10px;
+            background-color: #ff4747;
+            border: none;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .movie-info button:hover {
+            background-color: #ff1a1a;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recomendações de Filmes de Terror</h1>
+    </header>
+
+    <div class="container">
+        <!-- Cartão de Filme 1 -->
+        <div class="movie-card">
+            <img src="https://via.placeholder.com/200x300?text=Filme+1" alt="Filme 1">
+            <div class="movie-info">
+                <h2>O Exorcista</h2>
+                <p>Um clássico do terror que conta a história de uma garota possuída por um demônio, e os esforços de um padre para salvar sua alma.</p>
+                <button onclick="alert('Assistir "O Exorcista" agora!')">Assistir</button>
+            </div>
+        </div>
+
+        <!-- Cartão de Filme 2 -->
+        <div class="movie-card">
+            <img src="https://via.placeholder.com/200x300?text=Filme+2" alt="Filme 2">
+            <div class="movie-info">
+                <h2>O Iluminado</h2>
+                <p>Um escritor com problemas psicológicos e sua família vão morar em um hotel isolado durante o inverno. Lá, ele começa a perder a sanidade.</p>
+                <button onclick="alert('Assistir "O Iluminado" agora!')">Assistir</button>
+            </div>
+        </div>
+
+        <!-- Cartão de Filme 3 -->
+        <div class="movie-card">
+            <img src="https://via.placeholder.com/200x300?text=Filme+3" alt="Filme 3">
+            <div class="movie-info">
+                <h2>A Bruxa</h2>
+                <p>Em 1630, uma família puritana é aterrorizada por forças misteriosas em uma floresta próxima a sua casa.</p>
+                <button onclick="alert('Assistir "A Bruxa" agora!')">Assistir</button>
+            </div>
+        </div>
+
+        <!-- Cartão de Filme 4 -->
+        <div class="movie-card">
+            <img src="https://via.placeholder.com/200x300?text=Filme+4" alt="Filme 4">
+            <div class="movie-info">
+                <h2>Hereditary</h2>
+                <p>A morte de uma matriarca traz à tona segredos sombrios sobre uma família, levando-os a uma espiral de horror psicológico.</p>
+                <button onclick="alert('Assistir "Hereditary" agora!')">Assistir</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
